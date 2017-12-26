@@ -1,0 +1,101 @@
+@import url(https://fonts.googleapis.com/css?family=Merriweather);
+
+html, body{
+	height: 100%; 
+	width: 100%; 
+}
+
+body{
+	background-image: url(../img/bg_2.jpg);
+	background-size: 100% 100%;
+}
+
+#formRow{
+	margin-top: 5%;
+	margin-bottom: 5%; 
+}
+#addForm{
+	text-align: left;
+	padding-left: 10%; 
+	padding-right: 10%;
+	margin-top: 10%;
+}
+#agendaPanel{
+	overflow-y: scroll;
+
+}
+
+span{
+	font-family: 'Merriweather', serif;
+	font-size: 1.4em;
+
+}
+.submitButton{
+	font-family: 'Merriweather', serif;
+	background-color: transparent;  
+	display: block;
+	margin-left: auto; 
+	margin-right: auto; 
+	border: solid;
+	border-color: white;
+	border-width: 1px;
+}
+
+.highPriority{
+	color: white; 
+
+}
+.mediumPriority{
+	color: white; 
+
+}
+.lowPriority{
+	color: white;
+
+}
+.highprioritySpan{
+	color: red; 
+
+}
+.medprioritySpan{
+	color: blue; 
+
+}
+.lowprioritySpan{
+	color: white;
+
+}
+label{
+	color: white; 
+}
+.agendaContent{
+	text-align: center;
+	height: 30em;
+	background-color: transparent;
+	border-radius: 20px; 
+}
+
+::-webkit-scrollbar {
+	width: 12px;
+}
+
+::-webkit-scrollbar-track {
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+	border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+}
+
+.submitButton:hover, .submitButton:active, .submitButton:focus{
+	background-color: #1A237E;
+	border: none;
+
+}
+
+.stroked{
+	text-decoration: line-through;
+	color: #00E676;
+}

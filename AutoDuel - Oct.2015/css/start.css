@@ -1,0 +1,55 @@
+@import url(https://fonts.googleapis.com/css?family=Merriweather);
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+
+
+html, body{
+  height: 100%; 
+  width: 100%; 
+}
+
+body{
+  background-image: url(../img/bg.jpg);
+  background-size: 100% 100%;
+}
+
+.panelHeader{
+  font-family: 'Merriweather', serif;
+  text-align: center;
+}
+
+.panel{
+  background-color: white; 
+  border-radius: 30px; 
+  padding: 10%;
+
+}
+
+label{
+  color: black; 
+  font-family:'Roboto Mono'; 
+  font-size: 1em;
+}
+
+.inputForm{
+  padding-left: 15%; 
+  padding-right: 15%; 
+}
+
+.submitButton{
+  font-family:'Roboto Mono'; 
+  font-size: 1.2em;
+  background-color: #1A237E;  
+  display: block;
+  margin-left: auto; 
+  margin-right: auto; 
+}
+.submitButton:hover{
+  background-color: #0D47A1;
+}
+
+#formRow{
+  margin-top: 8%;
+}
+#bottomForm{
+  margin-bottom: 15%; 
+}

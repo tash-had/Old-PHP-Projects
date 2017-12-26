@@ -1,0 +1,21 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+
+.menuButton{
+	background-color: transparent; 
+	font-family:'Roboto Mono'; 
+	font-size: 1.1em; 
+
+}
+#navBarRow{
+	text-align: center;
+	display: inline-block;
+	margin-top: 5%; 
+}
+
+.menuButton:hover{
+	background-color: #1A237E; 
+}
+
+::selection{
+	background: #03a9f4;
+}
